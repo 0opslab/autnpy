@@ -1,0 +1,10 @@
+build/
+__pycache__/
+.idea/
+dist/
+monsoon.egg-info/
+.DB_Store
+.DB_Store?
+*.log
+*.svn
+.svn/
