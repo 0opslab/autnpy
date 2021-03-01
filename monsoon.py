@@ -52,7 +52,6 @@ class Autn:
 
         log.addHandler(fhdr)
         log.addHandler(chdr)
-
         return log
 
     @staticmethod
