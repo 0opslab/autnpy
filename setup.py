@@ -12,11 +12,12 @@ except ImportError:
 
 
 setup(
-    name='monsoon',
-    version='0.1.1',#该信息是必不可少的
-    author='monsoon',
+    name='Autnpy',
+    version='0.2.1',#该信息是必不可少的
+    author='0opslab',
     author_email='909070781@qq.com',
-    description='monsoon universal function',
+    platforms='any',
+    description='Autnpy universal function',
     license='MIT',
     packages=['',],#需要安装的代码包，也可以用find_packages函数
     # install_requires=['mako>=1.0.3',
@@ -27,9 +28,9 @@ setup(
         'Intended Audience :: Developers',
         'Operating System :: OS Independent',
         ],#这也需要遵循标准格式
-    keywords='monsoon function',
+    keywords='Autnpy universal function',
     url='https://github.com/0opslab',
     zip_safe=True,#设为True，以zip的方式进行传输
     include_package_data=True,#字面意思就可理解
-    platforms='any'
+    
 )
