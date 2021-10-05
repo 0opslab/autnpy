@@ -68,7 +68,13 @@ class Autnpy:
         """获取当前路径下的开始文件的全路径"""
         return Autnpy.trim_path(os.getcwd().replace("\\", "/").split("src/")[0] + file)
 
-
+    @staticmethod
+    def create_praentpath(file_name):
+        """创建文件所在目录结构"""
+        dirname = os.path.dirname(file_name)
+        if os.path.exists(dirname):
+            os.makedirs(dirname)
+        
 
     @staticmethod
     def hash_file(fine_name, hashtype="sha256", block_size=64 * 1024):

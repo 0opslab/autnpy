@@ -13,7 +13,7 @@ except ImportError:
 
 setup(
     name='Autnpy',
-    version='0.2.1',#该信息是必不可少的
+    version='0.2.2',#该信息是必不可少的
     author='0opslab',
     author_email='909070781@qq.com',
     platforms='any',
